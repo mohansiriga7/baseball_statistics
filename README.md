@@ -35,12 +35,12 @@
   Since we don't have BB and TB information in XML file, it's unable to calculate OBP. So, We are not showing OBP column in frontend.
   
  5. Calculating AVG(average)<br />
-   The basic equation is hits divided by at bats (H/AB)
-   <br />
-   Since AB is always greater than H for each and every player in our XML file, the result of average for every player is always zero. That's why average column has only zero values.
+   The basic equation is hits divided by at bats (H/AB)<br />
+   Since AB is always greater than H for each and every player in our XML file, the result of average for every player is always zero. That's why average column has only zero values.<br />
    
+ 6. Check the project on heroku [https://baseball-statistics.herokuapp.com/]<br />
    
-   ##Thank You.
+##Thank You.
 
 
 ## Contributing
