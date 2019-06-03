@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  surname: 
+  given_name: 
+  position: 
+  games: 
+  games_started: 
+  at_bats: 
+  runs: 
+  hits: 
+  doubles: 
+  triples: 
+  home_runs: 
+  rbi: 
+  steals: 
+  caught_stealing: 
+  sacrifice_hits: 
+  sacrifice_flies: 
+  errors: 
+  pb: 
+  walks: 
+  struck_out: 
+  hit_by_pitch: 1
+
+two:
+  surname: 
+  given_name: 
+  position: 
+  games: 
+  games_started: 
+  at_bats: 
+  runs: 
+  hits: 
+  doubles: 
+  triples: 
+  home_runs: 
+  rbi: 
+  steals: 
+  caught_stealing: 
+  sacrifice_hits: 
+  sacrifice_flies: 
+  errors: 
+  pb: 
+  walks: 
+  struck_out: 
+  hit_by_pitch: 1

@@ -1,0 +1,35 @@
+<table class="table" id="listing_players" data-hook>
+  <thead>
+  <tr data-hook="players_index_headers">
+    <th><%="Player Name"%></th>
+    <th><%= sort_link @search, :avg, "Average", default_order: :desc %></th>
+    <th><%= sort_link @search, :home_runs, "Home Runs"%></th>
+    <th><%= sort_link @search, :runs, "Runs" %></th>
+    <th><%= sort_link @search, :rbi, "RBI" %></th>
+    <th><%= sort_link @search, :stolen_base, "STOLEN BASE" %></th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <% @players.each do |player| %>
+    <tr>
+      <td><span><%= "#{player.surname} #{player.given_name}" %></span></td>
+      <td><span><%= player.average %></span></td>
+      <td><span><%= player.home_runs %></span></td>
+      <td><span><%= player.runs %></span></td>
+      <td><span><%= player.rbi %></span></td>
+      <td><span><%= player.stolen_base %></span></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+
+
+
+<div class="row index-pagination-row">
+  <div class="col-xs-6">
+    <%= paginate @players %>
+  </div>
+</div>
+
